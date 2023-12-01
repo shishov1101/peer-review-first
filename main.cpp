@@ -33,7 +33,7 @@ public:
 
     double Cheer(unsigned int user_id) {
         if (user_id > max_user_id_) {
-            throw std::invalid_argument("User IDincorrect!"s);
+            throw std::invalid_argument("User ID incorrect!"s);
         }
 
         unsigned int page_num = pages_read_by_id_[user_id];
